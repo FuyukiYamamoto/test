@@ -24,4 +24,4 @@ dataNo17<-subset(data,work=="No.17")
 dataNo18<-subset(data,work=="No.18")
 dataNo19<-subset(data,work=="No.19")
 
-print("dataNo19")
+print(dataNo19)
