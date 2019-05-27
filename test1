@@ -2,6 +2,8 @@
 
 data<-read.csv("sample.csv")
 
+#for(i in 1:19){
+
 #ワーク毎に行列作成
 work<-data[,1]
 dataNo1<-subset(data,work=="No.01")
@@ -23,5 +25,7 @@ dataNo16<-subset(data,work=="No.16")
 dataNo17<-subset(data,work=="No.17")
 dataNo18<-subset(data,work=="No.18")
 dataNo19<-subset(data,work=="No.19")
+
+#}
 
 print(head(dataNo19))
